@@ -1,1 +1,5 @@
-print"Hello from Jenkins Python build! v6"
+import sys
+
+print("Forcing Jenkins build to FAIL")
+sys.exit(1)
+
